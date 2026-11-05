@@ -1,0 +1,284 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	padding: 0px;
+	margin: 0px;
+  }
+
+ h2 {
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-size: 30px;
+ 	font-weight: 600;
+ 	padding: 0px;
+ 	margin: 0px;
+ } 
+
+ h1 {
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-size: 48px;
+ 	font-weight: 400;
+ 	padding: 0px;
+ 	margin: 0px;
+ 	padding-top: 23%;
+ } 
+
+  h3 {
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-size: 28px;
+ 	font-weight: 400;
+ 	padding: 20px 0px 0px 0px; 
+ 	margin: 0px;
+ } 
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.top {
+	position: relative;
+	width: 100%;
+	height: 200px;
+	background-color: rgba(255,255,255,0.85);
+	z-index: 1;
+	text-align: center;
+	color: #235249;
+	font-size: 18px;
+	    box-shadow: 0 0 135px #000;
+}
+
+.top img {
+	max-width: 100%;
+	height: auto;
+}
+
+.slika {
+	position: relative;
+	width: 100%;
+	background-position: top center;
+	background-image:url(images/slika.jpg);
+	margin-top: -200px;
+	text-align: center;
+	font-size: 28px;
+	background-size: cover;
+}
+
+.slika-2 {
+	position: relative;
+	width: 100%;
+	background-position: top center;
+	background-image:url(images/slika.jpg);
+	margin-top: -200px;
+	text-align: center;
+	font-size: 28px;
+	background-size: cover;
+	padding-bottom: 100px;
+}
+
+.phone {
+	padding: 20px;
+	border-bottom: 1px solid #909090;
+	margin-bottom: 20px;
+}
+
+.phone li {
+	display: inline;
+}
+
+.storitve {
+	background-image:url(images/bg-storitve.jpg);
+	width: 100%;
+	padding: 50px 0px 70px 0px;
+	color: #fff;
+	font-weight: 600;
+	font-size: 20px;
+	border-top: 4px solid #fff;
+	overflow: auto;
+	z-index: 1;
+}
+
+.storitve img {
+	margin-bottom: 15px;
+}
+
+.galerija {
+	background-image:url(images/bg-galerija.png);
+	width: 100%;
+	padding: 50px 0px;
+	background-position: top center;
+	text-align: center;
+	font-size: 18px;
+	z-index: 3;
+	margin-top: -20px;
+	overflow: auto;
+	font-size: 20px;
+}
+
+.galerija img {
+	margin: 0px 15px 15px 15px;
+	border-radius: 3px;
+}
+
+.sredina {
+	text-align: center;
+}
+
+.rob {
+	width: 100%;
+	position: relative;
+}
+.rob img  {
+	max-width: 100%;
+	height: auto;
+}
+
+.kontakt {
+	position: relative;
+	width: 100%;
+	padding: 50px 0px;
+	border-bottom: 2px solid #97afa4;
+	overflow: auto;
+}
+
+.kontakt img, .slika img {
+	max-width: 100%;
+	height: auto;
+}
+
+.triple {
+	float: left;
+	width: 33.33%;
+}
+
+.triple a, .phone a {
+	color: #47786f;
+	text-decoration: none;
+}
+
+.lokacija {
+	position: relative;
+	width: 100%;
+}
+
+
+.pravice {
+	position: relative;
+	width: 100%;
+	background-color: #575757;
+	text-align: center;
+	color: #fff;
+	margin-top: -80px;
+	padding: 15px 0px;
+}
+
+.kvatro {
+	float: left;
+	width: 22%;
+	padding: 0px 15px;
+}
+
+.kvatro img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* vsebina */
+
+.vsebina {
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 100px 0px;
+}
+
+/* razpis */
+
+.razpis {
+	float: left;
+	width: 100%;
+	padding-top: 20px;
+	border-top: 1px solid #eee;
+}
+
+.razpis a {
+	color: #235249;
+	display: inline-block;
+}
+
+.razpis a:hover {
+	color: #000;
+}
+
+.razpis img {
+	vertical-align: middle;
+}
+
+
+/* Ipad */
+@media (max-width: 1024px) {
+	.kvatro {
+		width: 21%;
+	}
+}
+
+@media only screen and ( max-width: 749px) {
+	.rob {
+		display: none;
+	}
+
+	.top {
+		height: auto;
+		font-size: 16px;
+	}
+	.slika {
+		margin-top: 0px;
+	}
+	.triple {
+		width: 100%;
+		padding-bottom: 30px;
+	}
+	.kvatro {
+		width: 43%;
+	}
+	.storitve {
+		font-size: 16px;
+	}
+
+	.storitve img {
+		max-width: 25%;
+		margin-bottom: 3px;
+	}
+
+	h1, h3, h2 {
+		font-size: 24px;
+	}
+	h1 {
+		padding-top: 10%;
+	}
+}
+
+
+/* Landscape phones and down */
+@media only screen and (max-width: 479px) {
+
+	.phone {
+		text-align: left;
+		padding: 20px 0px 20px 30px;
+	}
+
+	.phone li {
+		display: block;
+	}
+
+	.kvatro {
+		width: 40%;
+		padding: 0px 10px;
+	}
+	.top {
+		font-size: 18px;
+	}
+	h1 {
+		padding-top: 20%;
+	}
+}
